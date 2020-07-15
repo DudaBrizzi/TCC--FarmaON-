@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de cliente</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/1.png" type="png">
+    <link rel="stylesheet" href="libs/MaterialDesign/css/materialdesignicons.css">
+</head>
+
+<body class="cliente">
+
+    <div class="countainer-fluid">
+        <div class="col-md-12 col-12 text-center font-title bg-primary text-light">
+            <h1> Formulário de cadastro:</h1>
+        </div><br><br>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-8 col-12 ml-5 text-center text-dark bg-light display-block ml-auto mr-auto">
+                <img src="img/1.png" width="75px" alt="">
+                <h3>Preencha os espaços abaixo com as seguintes informações:</h3>
+                <hr>
+                <form action="" class="form">
+                    <div class="form-group">
+                        <label><b>1- Nome completo:</b></label>
+                        <input type="text" placeholder="Informe seu nome" class="form-control">
+                    </div>
+
+
+                    <div class="col-12 col-md-5 mx-auto form-group text-center">
+                        <label><b>2- Data de nascimento:</b></label></br>
+                        <input type="date"></input>
+                    </div>
+
+                    <div class="col-12 col-md-5 mx-auto form-group text-center">
+                        <label><b>3- RG:</b></label></br>
+                        <input type="Tel" max="10" min="" placeholder="Informe seu RG" class="form-control ">
+                    </div>
+
+                    <div class="col-12 col-md-5 mx-auto form-group text-center">
+                        <label><b>4- CPF:</b></label></br>
+                        <input type="Tel" max="10" min="10" placeholder="Informe seu CPF" class="form-control ">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="my-select"><b> Gênero:</b></label></br>
+                        <select id="my-select" class=" bg-light text-success" name="">
+                    <option>-</option>
+                    <option>Masculino</option>
+                    <option>Feminino</option>
+                </select>
+
+
+                        <div class="form-group text-center">
+                            <label for=""><b>6- Possui alguma Deficiência Audio-Visual?</b>
+                </label></br>
+
+                            <div class="form-group btn-deficiente text-center btn btn-toggle" data-toggle="buttons">
+                                <label class="btn btn-light">
+                        <input type="radio" name="yes">Sim
+                    </label>
+                                <label class="btn btn-light">
+                        <input type="radio" name="yes">Não
+                    </label>
+
+                                <div class="form-row">
+                                    <div class="offset-md-2 col-md-8 form-group">
+                                        <label for="my-input"><b> Qual?</b></label>
+                                        <input id="my-input" class="form-control" type="text" name="">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="offset-md-2 col-md-8 form-group">
+                                        <label for="my-input"><b>7- Endereço:</b></label>
+                                        <input id="my-input" class="form-control" type="text" name="">
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="offset-md-2 col-md-8 form-group">
+                                        <label for="my-input"><b>8- Cidade:</b></label>
+                                        <input id="my-input" class="form-control" type="text" name="">
+                                    </div>
+                                </div>
+
+                                <label>UF(estado):</label></br>
+                                <select class=" bg-light text-success" name="">
+                                <option value="">SP</option>
+                                <option value="1">RJ</option>
+                            </select>
+
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+
+
+            <script src="js/jquery-3.4.1.js"></script>
+            <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

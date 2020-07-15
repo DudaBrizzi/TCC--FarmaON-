@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de farmácia</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/1.png" type="png">
+    <link rel="stylesheet" href="libs/MaterialDesign/css/materialdesignicons.css">
+</head>
+
+<body class="body">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand text-white mdi mdi-keyboard-backspace mdi-24px text-center" href="index.html">
+            <h3>Voltar ao Início</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        </nav>
+    </br>
+    </br>
+    </br>
+    <div class="container">
+        <div id= "list_city" class="row mt-2">
+            <div class=" text-center text-dark bg-light display-block ml-auto mr-auto">
+                <img src="img/parceiro2.png" width="75px" alt="">
+                <h3>Preencha os espaços abaixo com as seguintes informações:</h3>
+                <hr>
+                <center>
+                <form action="" class="form">
+                    <div class="col-md-6 col-3">
+                    <div class="form-group">
+                        <label><b>Nome da Cidade:</b></label>
+                        <input type="text" placeholder="Informe o nome da cidade" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label><b>UF:</b></label>
+                        <input type="text" placeholder="Informe a Unidade Federativa desta cidade" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <a class="btn btn-outline-primary btn-add btn-circle">Cadastrar</a>
+                        </a>
+                    </div>
+</div>
+            </div>
+            </form>
+
+        </div>
+    </div>
+</center>
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="libs/sweetalert2/package/dist/sweetalert2.js"></script>
+    <script src="controle/add_cidade.js"></script>
+    <script src="controle/list_city.js"></script>
+</body>
+
+</html>

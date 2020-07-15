@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de farmácia</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/1.png" type="png">
+    <link rel="stylesheet" href="libs/MaterialDesign/css/materialdesignicons.css">
+</head>
+
+<body class="body">
+
+    <div class="counteiner-fluid">
+        <div class="col-md-12 col-12 text-center font-title bg-primary text-light">
+            <h1> Formulário de cadastro:</h1>
+        </div><br><br>
+    </div>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-8 col-12 ml-5 text-center text-dark bg-light display-block ml-auto mr-auto">
+                <img src="img/parceiro2.png" width="75px" alt="">
+                <h3>Preencha os espaços abaixo com as seguintes informações:</h3>
+                <hr>
+                <form action="" class="form">
+                    <div class="form-group">
+                        <label><b>Nome da farmácia:</b></label>
+                        <input type="text" placeholder="Informe o nome de sua farmácia" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label><b>Horário de atendimento:</b></label>
+                        <input type="text" placeholder="Informe o horário de funcionamento" class="form-control">
+                    </div>
+                    <div class="form-group ">
+                        <label><b> Endereço:</b></label>
+                        <input type="text" placeholder="Digite seu endereço" class="form-control ">
+                    </div>
+                    <div class="form-group ">
+                        <label><b> Cidade:</b></label>
+                        <input type="text" placeholder="Informe sua cidade" class="form-control ">
+                    </div>
+                    <div class="form-group">
+                        <label for="my-select"><b> UF:</b></label>
+                        <select id="my-select" class="form-control bg-light text-success" name="">
+                            <option>-</option>
+                            <option>SP</option>
+                            <option>RJ</option>
+                        </select>
+                    </div>
+                    <div class="form-group ">
+                        <label><b> Contato:</b></label>
+                        <input type="Tel" max="10" min="" placeholder="Informe seu número" class="form-control ">
+                    </div>
+                    <div class="form-group ">
+                        <label><b> E-mail:</b></label>
+                        <input type="E-mail" placeholder="Digite seu E-mail. Ex: *****@gmail.com" class="form-control ">
+                    </div>
+                    <div class="form-group ">
+                        <label><b> Senha:</b></label>
+                        <input type="password" placeholder="Digite uma senha " class="form-control ">
+                    </div>
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <strong>A senha precisa conter:</strong> Letras Minúsculas, Maiúscula e Número
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="form-group ">
+                        <label><b> Confirme sua senha:</b></label>
+                        <input type="password" placeholder="Digite uma senha novamente" class="form-control ">
+                    </div>
+
+
+                    <div class="form-group">
+                        <a href="index.html" class="btn btn-outline-success btn-circle">Cadastrar</a>
+                        </a>
+                    </div>
+
+            </div>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
