@@ -1,5 +1,5 @@
 <?php
-include('../../conexao/conn.php');
+include('../conexao/conn.php');
 print_r($_REQUEST);
 exit;
 
